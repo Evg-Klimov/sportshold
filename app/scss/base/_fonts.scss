@@ -1,0 +1,19 @@
+@import "app/scss/helpers/mixin";
+
+@include font-face(
+  "trueno",
+  "../fonts/trueno/truenolt-webfont/truenolt-webfont",
+  400
+);
+
+@include font-face(
+  "trueno",
+  "../fonts/trueno/truenobd-webfont/truenobd-webfont",
+  700
+);
+
+@include font-face(
+  "trueno",
+  "../fonts/trueno/truenoultblk-webfont/truenoultblk-webfont",
+  900
+);
