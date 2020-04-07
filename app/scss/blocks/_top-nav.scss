@@ -1,0 +1,38 @@
+.top-nav {
+	background-color: $crater-brown;
+
+	a {
+		padding: 18px;
+		color: $white;
+		font-size: rem(13);
+		transition: background-color .2s linear; 
+	
+		&:hover {
+			background-color: $bittersweet;
+		}
+	}
+
+	&__container {
+		justify-content: space-between;
+	}
+}
+
+.nav-list,
+.user-interaction,
+.top-nav__container {
+	display: flex;
+	align-items: center;
+}
+
+.purchases {
+	border-right: 2px solid $congo-brown;
+}
+
+.shopping-bag {
+	font-size: rem(18);
+	padding-right: 5px;
+}
+
+.quantity {
+	color: $clam-shell;
+}
