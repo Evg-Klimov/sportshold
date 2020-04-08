@@ -10,10 +10,18 @@
 		&:hover {
 			background-color: $bittersweet;
 		}
+
+		@media (max-width: 425px) {
+			padding: 14px;
+		}
 	}
 
 	&__container {
 		justify-content: space-between;
+
+		@media (max-width: 768px) {
+			justify-content: center;
+		}
 	}
 }
 
@@ -22,6 +30,12 @@
 .top-nav__container {
 	display: flex;
 	align-items: center;
+}
+
+.nav-list {
+	@media (max-width: 768px) {
+		display: none;
+	}
 }
 
 .purchases {

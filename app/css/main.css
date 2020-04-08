@@ -60,14 +60,24 @@ ul {
     transition: background-color .2s linear; }
     .top-nav a:hover {
       background-color: #FF7373; }
+    @media (max-width: 425px) {
+      .top-nav a {
+        padding: 14px; } }
   .top-nav__container {
     justify-content: space-between; }
+    @media (max-width: 768px) {
+      .top-nav__container {
+        justify-content: center; } }
 
 .nav-list,
 .user-interaction,
 .top-nav__container {
   display: flex;
   align-items: center; }
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none; } }
 
 .purchases {
   border-right: 2px solid #5A3A3A; }
