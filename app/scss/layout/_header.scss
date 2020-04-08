@@ -1,0 +1,10 @@
+.header {
+	background-color: $buccaneer;
+	
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+

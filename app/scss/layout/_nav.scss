@@ -1,0 +1,32 @@
+.main-menu {
+	display: flex;
+	align-items: center;
+
+	li {
+		margin-left: 35px;
+	}
+
+	a {
+		position: relative;
+		display: inline-block;
+		padding: 30px 0 28px 0;
+		color: $white;
+
+		&::after {
+			@include pseudo;
+			left: -6px;
+			right: -6px;
+			bottom: 0;
+			height: 3px;
+			transform: scale(0);
+			transform-origin: left center;
+			background-color: $bittersweet;
+			transition: transform .2s linear;
+		}
+
+		&:hover::after {
+			transform: scale(1);
+		}
+	}
+}
+
